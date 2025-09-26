@@ -28,6 +28,16 @@
 			"name": "subject",
 			"value": "{{selector:div.ha > h2}}",
 			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{selector:span[class=\\\"gD\\\"]?name|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "senderEmail",
+			"value": "{{selector:span[class=\\\"gD\\\"]?email}}",
+			"type": "text"
 		}
 	],
 	"triggers": [
