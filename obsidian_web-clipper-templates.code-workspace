@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../_Organization-Standards"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/../../_Organization-Standards": false
+		},
+        "search.exclude": {
+            "**/../../_Organization-Standards": true
+        }
+	}
+}
+
