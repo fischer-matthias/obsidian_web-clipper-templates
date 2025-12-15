@@ -15,3 +15,7 @@
 # IDE environments
 .vscode
 .idea
+
+# Standard: Ignore Playground but track folder
+_Playground/*
+!_Playground/.gitkeep
